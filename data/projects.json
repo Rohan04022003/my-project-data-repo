@@ -80,7 +80,6 @@
     ],
     "isLatest": true
   },
-  [
     {
       "title": "Fashion Market",
       "slug": "fashion-market",
@@ -163,5 +162,4 @@
       ],
       "isLatest": true
     }
-  ]
 ]
