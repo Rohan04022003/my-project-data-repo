@@ -79,5 +79,89 @@
       "pdf"
     ],
     "isLatest": true
-  }
+  },
+  [
+    {
+      "title": "Fashion Market",
+      "slug": "fashion-market",
+      "description": "A modern, responsive e-commerce frontend built with React, TypeScript, Tailwind CSS, and shadcn/ui. Includes product filtering, cart, simulated checkout (Card, UPI, COD), and a sleek UI for a seamless shopping experience.",
+      "whyBuilt": "To deliver a high-performance shopping frontend with seamless navigation, responsive design, and essential commerce features using modern technologies.",
+      "techStack": [
+        "React",
+        "TypeScript",
+        "Vite",
+        "Tailwind CSS",
+        "shadcn/ui",
+        "Embla Carousel",
+        "Lucide React Icons",
+        "React Router DOM",
+        "Context API",
+        "Custom Hooks",
+        "ESLint"
+      ],
+      "features": [
+        "Modern UI/UX with responsive design and skeleton loading states",
+        "Multiple product categories (Men, Women, Kids, Electronics, Cosmetics, Shoes)",
+        "Advanced product filtering and real-time search drawer",
+        "Add to cart, remove, and real-time cart updates",
+        "Streamlined checkout (Address ➝ Payment ➝ Order Summary)",
+        "Simulated payment options (Card, UPI, COD)",
+        "Order confirmation and summary",
+        "Modern login/signup pages",
+        "Contact page with FAQ toggle and social integration",
+        "Responsive breadcrumb navigation"
+      ],
+      "folderStructure": {
+        "src": [
+          "assets/ - Static assets",
+          "components/ - Reusable UI components",
+          "components/ui/ - shadcn/ui components",
+          "components/Skeletons/ - Loading state components",
+          "context/ - React Context providers",
+          "hooks/ - Custom React hooks",
+          "lib/ - Utility libraries",
+          "Pages/ - Page components",
+          "Pages/Home.tsx",
+          "Pages/Men.tsx",
+          "Pages/Women.tsx",
+          "Pages/Kids.tsx",
+          "Pages/Electronics.tsx",
+          "Pages/Cosmetics.tsx",
+          "Pages/Shoes.tsx",
+          "Pages/Cart.tsx",
+          "Pages/Orders.tsx",
+          "Pages/Contact.tsx",
+          "types/ - TypeScript type definitions",
+          "utils/ - Helper functions"
+        ]
+      },
+      "screenshots": ["https://raw.githubusercontent.com/Rohan04022003/my-project-data-repo/main/public/images/fashionMarket01.png",
+      "screenshots": ["https://raw.githubusercontent.com/Rohan04022003/my-project-data-repo/main/public/images/fashionMarket02.png",
+      "screenshots": ["https://raw.githubusercontent.com/Rohan04022003/my-project-data-repo/main/public/images/fashionMarket03.png",
+      "screenshots": ["https://raw.githubusercontent.com/Rohan04022003/my-project-data-repo/main/public/images/fashionMarket04.png",
+      "screenshots": ["https://raw.githubusercontent.com/Rohan04022003/my-project-data-repo/main/public/images/fashionMarket05.png",
+      "screenshots": ["https://raw.githubusercontent.com/Rohan04022003/my-project-data-repo/main/public/images/fashionMarket06.png"
+    ],
+      "githubLink": "https://github.com/Rohan04022003/fashion-market",
+      "liveDemo": "https://fashion-market-x22z.vercel.app/",
+      "readmeHighlights": {
+        "installation": "npm install && npm run dev",
+        "envSetup": [],
+        "usage": "Browse products, use filters/search, add to cart, checkout using simulated payment methods"
+      },
+      "tags": [
+        "ecommerce",
+        "react",
+        "typescript",
+        "tailwind",
+        "shadcn-ui",
+        "vite",
+        "embla",
+        "cart",
+        "checkout"
+      ],
+      "isLatest": true
+    }
+  ]
+  
 ]
