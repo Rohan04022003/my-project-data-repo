@@ -1,0 +1,80 @@
+[
+  {
+    "title": "AI Chatbot",
+    "slug": "ai-chatbot",
+    "description": "AI Chatbot is a full-featured modern web app that enables users to chat with various AI models like Cohere, Gemini, and Mistral through a beautiful, responsive UI.",
+    "whyBuilt": "To explore multi-model AI integration and provide users with an intuitive and extensible chatbot interface for learning and experimentation.",
+    "techStack": [
+      "React",
+      "TypeScript",
+      "Vite",
+      "Tailwind CSS",
+      "React Router",
+      "Context API",
+      "jsPDF",
+      "Lucide Icons"
+    ],
+    "features": [
+      "Multi-model AI chat support (Cohere, Gemini, Mistral)",
+      "User authentication with onboarding modal",
+      "Bot management system to create/view/edit bots",
+      "Persistent chat history with PDF export",
+      "Responsive layout and modern theme toggling",
+      "Extensible design to add new models easily"
+    ],
+    "folderStructure": {
+      "public": [
+        "public/** - Static assets (favicon, icons, manifest.json, robots.txt, etc.)"
+      ],
+      "src": [
+        "api/** - API integrations for AI models like Cohere, Gemini, Mistral",
+        "assets/** - Images, logos, and SVGs used in UI",
+        "components/** - Reusable UI components like Sidebar, Modal, etc.",
+        "components/ui/** - Low-level UI primitives like Button, Card, Input",
+        "context/** - React context providers for theme, user, bot state",
+        "data/** - Static config data like sidebar links, bot model options",
+        "hooks/** - Custom React hooks like useTheme, useLenis, useScroll",
+        "layout/** - Layout wrappers such as Dashboard or Auth layout",
+        "lib/** - Utility libraries and third-party instances (e.g., Lenis)",
+        "pages/** - Route-level components like Dashboard, Chat, CreateBot",
+        "router/** - App routing setup using React Router",
+        "types/** - TypeScript types and interfaces (e.g., BotType, MessageType)",
+        "utils/** - Utility functions (e.g., export to PDF, format date/time)",
+        "index.css** - Global Tailwind and custom styles"
+      ],
+      "root": [
+        "package.json** - Lists dependencies, scripts, and project metadata",
+        "tsconfig.json** - TypeScript compiler configuration",
+        "vite.config.ts** - Vite build and dev server configuration",
+        "README.md** - Full project documentation including setup and usage"
+      ]
+    },
+    "screenshots": [
+      "https://raw.githubusercontent.com/your-username/your-repo/main/public/images/projects/ai-chatbot/ss1.png",
+      "https://raw.githubusercontent.com/your-username/your-repo/main/public/images/projects/ai-chatbot/ss2.png",
+      "https://raw.githubusercontent.com/your-username/your-repo/main/public/images/projects/ai-chatbot/ss3.png"
+    ],
+    "githubLink": "https://github.com/Rohan04022003/botForge-AI",
+    "liveDemo": "https://bot-forge-ai.vercel.app/",
+    "readmeHighlights": {
+      "installation": "npm install && npm run dev",
+      "envSetup": [
+        "VITE_COHERE_API_KEY=your_cohere_key",
+        "VITE_GEMINI_API_KEY=your_gemini_key",
+        "VITE_MISTRAL_API_KEY=your_mistral_key"
+      ],
+      "usage": "Login, select model, start chat, manage bots, export chats"
+    },
+    "tags": [
+      "ai",
+      "chatbot",
+      "react",
+      "typescript",
+      "cohere",
+      "gemini",
+      "mistral",
+      "pdf"
+    ],
+    "isLatest": true
+  }
+]
