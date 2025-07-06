@@ -135,13 +135,14 @@
           "utils/ - Helper functions"
         ]
       },
-      "screenshots": ["https://raw.githubusercontent.com/Rohan04022003/my-project-data-repo/main/public/images/fashionMarket01.png",
-      "screenshots": ["https://raw.githubusercontent.com/Rohan04022003/my-project-data-repo/main/public/images/fashionMarket02.png",
-      "screenshots": ["https://raw.githubusercontent.com/Rohan04022003/my-project-data-repo/main/public/images/fashionMarket03.png",
-      "screenshots": ["https://raw.githubusercontent.com/Rohan04022003/my-project-data-repo/main/public/images/fashionMarket04.png",
-      "screenshots": ["https://raw.githubusercontent.com/Rohan04022003/my-project-data-repo/main/public/images/fashionMarket05.png",
-      "screenshots": ["https://raw.githubusercontent.com/Rohan04022003/my-project-data-repo/main/public/images/fashionMarket06.png"
-    ],
+      "screenshots": [
+        "https://raw.githubusercontent.com/Rohan04022003/my-project-data-repo/main/public/images/fashionMarket01.png",
+        "https://raw.githubusercontent.com/Rohan04022003/my-project-data-repo/main/public/images/fashionMarket02.png",
+        "https://raw.githubusercontent.com/Rohan04022003/my-project-data-repo/main/public/images/fashionMarket03.png",
+        "https://raw.githubusercontent.com/Rohan04022003/my-project-data-repo/main/public/images/fashionMarket04.png",
+        "https://raw.githubusercontent.com/Rohan04022003/my-project-data-repo/main/public/images/fashionMarket05.png",
+        "https://raw.githubusercontent.com/Rohan04022003/my-project-data-repo/main/public/images/fashionMarket06.png"
+      ],
       "githubLink": "https://github.com/Rohan04022003/fashion-market",
       "liveDemo": "https://fashion-market-x22z.vercel.app/",
       "readmeHighlights": {
@@ -163,5 +164,4 @@
       "isLatest": true
     }
   ]
-  
 ]
