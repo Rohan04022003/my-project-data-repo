@@ -263,7 +263,7 @@
         "README.md** - Documentation",
         "vercel.json** - SPA support on Vercel"
       ],
-      "public": ["db.json - Mock backend with photographer data"],
+      "public": ["db.json** - Mock backend with photographer data"],
       "src": [
         "App.jsx** - Main app layout and routes",
         "main.jsx** - App initialization with context",
