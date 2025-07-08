@@ -200,10 +200,10 @@
         "components/NewsItems/NewsItems.jsx** - Individual news card UI"
       ],
       "root": [
-        "index.html - HTML entry point",
-        "package.json - Project metadata and dependencies",
-        "vite.config.js - Vite configuration file",
-        "README.md - Documentation and usage guide"
+        "index.html** - HTML entry point",
+        "package.json** - Project metadata and dependencies",
+        "vite.config.js** - Vite configuration file",
+        "README.md** - Documentation and usage guide"
       ]
     },
     "screenshots": [
@@ -257,11 +257,11 @@
     ],
     "folderStructure": {
       "root": [
-        "index.html - Entry point of the app",
-        "package.json - Project metadata and scripts",
-        "vite.config.js - Vite configuration",
-        "README.md - Documentation",
-        "vercel.json - SPA support on Vercel"
+        "index.html** - Entry point of the app",
+        "package.json** - Project metadata and scripts",
+        "vite.config.js** - Vite configuration",
+        "README.md** - Documentation",
+        "vercel.json** - SPA support on Vercel"
       ],
       "public": ["db.json - Mock backend with photographer data"],
       "src": [
@@ -328,7 +328,7 @@
         "input.css** - Source stylesheet using Tailwind CSS",
         "output.css** - Final compiled CSS"
       ],
-      "root": ["README.md* - Project documentation"]
+      "root": ["README.md** - Project documentation"]
     },
     "screenshots": [
       "https://raw.githubusercontent.com/Rohan04022003/my-project-data-repo/main/public/images/dreamSteps01.png",
