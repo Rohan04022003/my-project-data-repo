@@ -186,10 +186,10 @@
     ],
     "folderStructure": {
       "public": [
-        "404.html - Custom 404 page for SPA routing",
-        "favicon.png - App icon"
+        "404.html** - Custom 404 page for SPA routing",
+        "favicon.png** - App icon"
       ],
-      "loading": ["gif.gif - News loading animation"],
+      "loading": ["gif.gif** - News loading animation"],
       "src": [
         "App.jsx** - Main app entry",
         "main.jsx** - Vite entry file",
