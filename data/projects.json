@@ -418,6 +418,7 @@
       "html",
       "css",
       "javascript",
+      "bootstrap",
       "responsive",
       "coffee-shop",
       "cafe-website",
@@ -430,7 +431,7 @@
     "slug": "hospital-management-system",
     "description": "A modern, responsive Hospital Management System front-end template built with HTML, CSS, and JavaScript. This template is designed for hospitals, clinics, and healthcare providers to showcase their services, doctors, and facilities online.",
     "whyBuilt": "To provide a professional and accessible web presence for hospitals and healthcare providers, with key pages like doctor listings, contact, online payment (UI), news, and feedback forms, all in a responsive, user-friendly design.",
-    "techStack": ["HTML5", "CSS3", "JavaScript"],
+    "techStack": ["HTML5", "CSS3", "JavaScript", "Bootstrap 5"],
     "features": [
       "Responsive design for all devices",
       "Find a doctor page with doctor profiles",
@@ -484,6 +485,7 @@
       "html",
       "css",
       "javascript",
+      "bootstrap",
       "hospital-template",
       "responsive-design",
       "healthcare"
