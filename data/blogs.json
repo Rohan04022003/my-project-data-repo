@@ -1,41 +1,5 @@
 [
   {
-    "id": "html-css-js-foundation",
-    "title": "How I Built a Strong Frontend Foundation with HTML, CSS & JavaScript",
-    "description": "My journey of learning HTML, CSS, and JavaScript through hands-on projects. Here's how I built real-world UIs from scratch as a fresher.",
-    "coverImage": "https://i.pinimg.com/736x/48/a0/42/48a0420050feb99091cd6e40deec2854.jpg",
-    "date": "2023-06-02",
-    "tags": ["html", "css", "javascript", "frontend", "foundation"],
-    "readTime": "5 min read",
-    "slug": "html-css-js-foundation",
-    "projectSlug": "",
-    "author": {
-      "name": "Rohan Kumar Mahto",
-      "avatar": "/images/author/rohan.png"
-    },
-    "content": {
-      "sections": [
-        {
-          "heading": "Starting Out",
-          "text": "Coming from a Bachelor of Computer Applications (BCA) background, I had already studied programming fundamentals and computer systems. But what truly helped me grow was stepping out of academic theory and diving into hands-on frontend development. I dedicated myself to mastering HTML, CSS, and JavaScript — not just through courses, but by building interfaces that looked and behaved like real products. I challenged myself to build without frameworks, understanding each line of code deeply. This phase laid the groundwork for everything I’ve built since."
-        },
-        {
-          "heading": "What I Built",
-          "list": [
-            "Responsive Landing Pages – Crafted with semantic HTML and CSS Grid/Flexbox. These helped me understand layout, alignment, and how content adapts across screen sizes.",
-            "Vanilla JavaScript Calculator – I handled user input, operator chaining, error validation, and screen updates — all without any library support.",
-            "Form Validator – Using JavaScript, I built a form that validated inputs in real-time, displayed inline error messages, and controlled the submit button state.",
-            "News UI Layout – I recreated a modern news website layout with cards, headlines, categories, and responsive behavior — practicing real-world design systems."
-          ]
-        },
-        {
-          "heading": "Takeaway",
-          "text": "This journey taught me more than just syntax — it trained my mind to think like a frontend engineer. I learned how the DOM actually works, how CSS affects rendering, and how users interact with UI. Because I worked without shortcuts or frameworks in the beginning, I now write scalable React components and debug layout issues with ease. Looking back, these months of pure HTML, CSS, and JavaScript practice were the most valuable part of my learning path."
-        }
-      ]
-    }
-  },
-  {
     "id": "ai-chatbot",
     "title": "Building BotForge AI – A Multi-Model Chatbot in React",
     "description": "A complete breakdown of how I built BotForge AI – a sleek AI chatbot interface using React, Context API, and Tailwind CSS. Supports Cohere, Gemini & Mistral.",
@@ -81,6 +45,240 @@
             "https://bot-forge-ai.vercel.app/",
             "https://github.com/Rohan04022003/botForge-AI"
           ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "fashion-market",
+    "title": "Building Fashion Market – A Complete E-Commerce UI with React & Tailwind",
+    "description": "A modern e-commerce frontend built using React, TypeScript, Tailwind CSS, and shadcn/ui. From filtering to checkout – here’s how I crafted Fashion Market.",
+    "coverImage": "https://raw.githubusercontent.com/Rohan04022003/my-project-data-repo/main/public/images/fashionMarket01.png",
+    "date": "2025-07-11",
+    "tags": [
+      "react",
+      "tailwindcss",
+      "shadcn",
+      "ecommerce",
+      "typescript",
+      "frontend"
+    ],
+    "readTime": "7 min read",
+    "slug": "fashion-market",
+    "projectSlug": "fashion-market",
+    "author": {
+      "name": "Rohan Kumar Mahto",
+      "avatar": "/images/author/rohan.png"
+    },
+    "content": {
+      "sections": [
+        {
+          "heading": "Why I Built Fashion Market",
+          "text": "I wanted to build a complete, professional-grade e-commerce frontend that not only looks good but also feels real. Fashion Market is that project — responsive, full-featured, and built using React, TypeScript, Tailwind CSS, and shadcn/ui. It replicates everything from product filtering and cart management to a smooth multi-step checkout process."
+        },
+        {
+          "heading": "Features",
+          "list": [
+            "Category-wise browsing: Men's, Women's, Kids', Electronics, Cosmetics, Shoes.",
+            "O(1) product search with real-time drawer results and advanced filters.",
+            "Cart functionality with live updates and localStorage integration.",
+            "Multi-step checkout with simulated payments (Card, UPI, COD).",
+            "Fully responsive UI with animations, skeleton loaders, and smooth transitions.",
+            "FAQ-based Contact page, breadcrumbs, and social media integration."
+          ]
+        },
+        {
+          "heading": "Tech Stack",
+          "list": [
+            "React 19 with TypeScript and Vite for blazing fast dev workflow.",
+            "Tailwind CSS for styling, and shadcn/ui for accessible, reusable components.",
+            "Embla Carousel for featured product sliders.",
+            "React Router DOM for client-side routing.",
+            "React Context API and custom hooks for state management."
+          ]
+        },
+        {
+          "heading": "Links",
+          "list": [
+            "https://fashion-market-x22z.vercel.app/",
+            "https://github.com/Rohan04022003/fashion-market"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "shadcn-ui-journey",
+    "title": "Why I Chose shadcn/ui for My Latest Frontend Projects",
+    "description": "A practical breakdown of how I used shadcn/ui to ship polished React UIs with accessible, pre-built components and animations.",
+    "coverImage": "https://ui.shadcn.com/android-chrome-192x192.png",
+    "date": "2025-06-11",
+    "tags": ["shadcn", "react", "components", "ui", "frontend"],
+    "readTime": "5 min read",
+    "slug": "shadcn-ui-journey",
+    "projectSlug": "fashion-market",
+    "author": {
+      "name": "Rohan Kumar Mahto",
+      "avatar": "/images/author/rohan.png"
+    },
+    "content": {
+      "sections": [
+        {
+          "heading": "Discovering shadcn/ui",
+          "text": "When I started working on Fashion Market and BotForge AI, I wanted UI components that were beautiful, accessible, and fast to ship. That’s when I discovered shadcn/ui — a modern React component library built with Radix and Tailwind CSS."
+        },
+        {
+          "heading": "What I Loved",
+          "list": [
+            "Pre-built components like modals, dropdowns, and dialogs that just work.",
+            "Accessible-by-default — no need to worry about ARIA roles and focus traps.",
+            "Perfectly matches Tailwind’s utility-first styling approach."
+          ]
+        },
+        {
+          "heading": "Why I Recommend It",
+          "text": "shadcn/ui helped me focus on logic while maintaining visual polish. I now use it regularly for fast prototyping and production UIs. If you're working in React with Tailwind, shadcn is a game changer."
+        }
+      ]
+    }
+  },
+  {
+    "id": "tailwind-foundation",
+    "title": "Why Tailwind CSS Changed My Approach to Frontend Development",
+    "description": "Discover how I transitioned from traditional CSS to utility-first design using Tailwind CSS and built modern UIs rapidly.",
+    "coverImage": "https://i.pinimg.com/1200x/14/74/9e/14749e54dbdf5a0acd58f67743a84afa.jpg",
+    "date": "2024-07-11",
+    "tags": ["tailwindcss", "css", "responsive", "frontend", "ui"],
+    "readTime": "5 min read",
+    "slug": "tailwind-foundation",
+    "projectSlug": "fashion-market",
+    "author": {
+      "name": "Rohan Kumar Mahto",
+      "avatar": "/images/author/rohan.png"
+    },
+    "content": {
+      "sections": [
+        {
+          "heading": "Getting into Utility-First Design",
+          "text": "Before Tailwind, I wrote custom CSS for every component. While it worked, it became hard to maintain. Tailwind CSS completely changed my workflow — its utility-first approach helped me build and iterate much faster. I could visualize my layout and spacing directly in the markup."
+        },
+        {
+          "heading": "How I Used Tailwind",
+          "list": [
+            "In my Fashion Market project, I used Tailwind to style responsive product cards, grids, and modals effortlessly.",
+            "Implemented dark/light theme toggle using Tailwind’s built-in support.",
+            "Used utility classes for padding, margin, typography, and hover effects — all without writing a single CSS file."
+          ]
+        },
+        {
+          "heading": "Why It Matters",
+          "text": "Tailwind boosted both my speed and consistency. I no longer needed to name every class or worry about specificity wars. It also made working with React components much cleaner since the styles live close to the structure."
+        }
+      ]
+    }
+  },
+  {
+    "id": "bootstrap-ui",
+    "title": "Using Bootstrap to Build Consistent UIs Quickly",
+    "description": "My experience building responsive layouts and real-time projects using Bootstrap’s powerful UI components.",
+    "coverImage": "https://i.pinimg.com/1200x/9b/4e/e0/9b4ee057076232fb57c48cf80947f8a7.jpg",
+    "date": "2024-07-11",
+    "tags": ["bootstrap", "ui", "responsive", "frontend", "css"],
+    "readTime": "4 min read",
+    "slug": "bootstrap-ui",
+    "projectSlug": "kite-news",
+    "author": {
+      "name": "Rohan Kumar Mahto",
+      "avatar": "/images/author/rohan.png"
+    },
+    "content": {
+      "sections": [
+        {
+          "heading": "Getting Started with Bootstrap",
+          "text": "As a beginner, Bootstrap made UI design less overwhelming. With its grid system and pre-built components, I was able to build professional-looking layouts without worrying about every CSS detail."
+        },
+        {
+          "heading": "Where I Used It",
+          "list": [
+            "In my Kite News project, I styled the entire layout using Bootstrap components and responsive classes.",
+            "Handled modals, cards, and navbars with ease using Bootstrap’s documentation.",
+            "Focused on logic and API integration instead of spending hours on styling."
+          ]
+        },
+        {
+          "heading": "The Outcome",
+          "text": "Bootstrap helped me move faster and build functional layouts for my projects. It was a stepping stone that gave me the confidence to explore more customized UI frameworks like Tailwind and shadcn/ui later."
+        }
+      ]
+    }
+  },
+  {
+    "id": "react-journey",
+    "title": "How React Became the Backbone of My Projects",
+    "description": "React helped me transition from static sites to dynamic, interactive applications. Here’s how I mastered it and built real-world apps.",
+    "coverImage": "https://i.pinimg.com/1200x/9b/4e/e0/9b4ee057076232fb57c48cf80947f8a7.jpg",
+    "date": "2024-01-11",
+    "tags": ["react", "hooks", "frontend", "state", "projects"],
+    "readTime": "6 min read",
+    "slug": "react-journey",
+    "projectSlug": "ai-chatbot",
+    "author": {
+      "name": "Rohan Kumar Mahto",
+      "avatar": "/images/author/rohan.png"
+    },
+    "content": {
+      "sections": [
+        {
+          "heading": "Why React?",
+          "text": "After learning HTML, CSS, and JavaScript, I wanted to build apps that could scale. React gave me the tools to handle dynamic UIs, reusable components, and manage state efficiently. Its ecosystem made it the perfect choice for serious frontend development."
+        },
+        {
+          "heading": "What I Built with React",
+          "list": [
+            "Kite News – a real-time news app using News API with infinite scroll and search functionality.",
+            "Fashion Market – an e-commerce UI with product filtering, dynamic cart, and localStorage integration.",
+            "BotForge AI – a professional multi-model chatbot with real-time responses and user-defined bots."
+          ]
+        },
+        {
+          "heading": "Skills Gained",
+          "text": "Using React Hooks, Context API, and modular components, I learned how to handle real-world complexities like user input, API integration, and global state management. Today, I feel confident building any UI with React."
+        }
+      ]
+    }
+  },
+  {
+    "id": "html-css-js-foundation",
+    "title": "How I Built a Strong Frontend Foundation with HTML, CSS & JavaScript",
+    "description": "My journey of learning HTML, CSS, and JavaScript through hands-on projects. Here's how I built real-world UIs from scratch as a fresher.",
+    "coverImage": "https://i.pinimg.com/736x/48/a0/42/48a0420050feb99091cd6e40deec2854.jpg",
+    "date": "2023-06-02",
+    "tags": ["html", "css", "javascript", "frontend", "foundation"],
+    "readTime": "5 min read",
+    "slug": "html-css-js-foundation",
+    "projectSlug": "",
+    "author": {
+      "name": "Rohan Kumar Mahto",
+      "avatar": "/images/author/rohan.png"
+    },
+    "content": {
+      "sections": [
+        {
+          "heading": "Starting Out",
+          "text": "Coming from a Bachelor of Computer Applications (BCA) background, I had already studied programming fundamentals and computer systems. But what truly helped me grow was stepping out of academic theory and diving into hands-on frontend development. I dedicated myself to mastering HTML, CSS, and JavaScript — not just through courses, but by building interfaces that looked and behaved like real products. I challenged myself to build without frameworks, understanding each line of code deeply. This phase laid the groundwork for everything I’ve built since."
+        },
+        {
+          "heading": "What I Built",
+          "list": [
+            "Responsive Landing Pages – Crafted with semantic HTML and CSS Grid/Flexbox. These helped me understand layout, alignment, and how content adapts across screen sizes.",
+            "Vanilla JavaScript Calculator – I handled user input, operator chaining, error validation, and screen updates — all without any library support.",
+            "Form Validator – Using JavaScript, I built a form that validated inputs in real-time, displayed inline error messages, and controlled the submit button state.",
+            "News UI Layout – I recreated a modern news website layout with cards, headlines, categories, and responsive behavior — practicing real-world design systems."
+          ]
+        },
+        {
+          "heading": "Takeaway",
+          "text": "This journey taught me more than just syntax — it trained my mind to think like a frontend engineer. I learned how the DOM actually works, how CSS affects rendering, and how users interact with UI. Because I worked without shortcuts or frameworks in the beginning, I now write scalable React components and debug layout issues with ease. Looking back, these months of pure HTML, CSS, and JavaScript practice were the most valuable part of my learning path."
         }
       ]
     }
